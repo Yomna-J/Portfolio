@@ -13,7 +13,7 @@ module.exports = {
       primary: "#721CFF",
       secondary: "#F8EDFF",
       darkGray: "#1B1A17",
-      lightGray: "#21201D",
+      lightGray: "#262624",
     },
   },
   plugins: [],
