@@ -35,11 +35,13 @@ function addEffectWriting(element, time) {
   return (
     <div className="mx-auto flex flex-col justify-center gap-2 p-4 md:flex-row md:items-center md:justify-between lg:max-w-7xl">
       <div className="p-5 md:w-1/2 md:flex-col md:p-0">
-        <h1 className="py-1 text-5xl font-black text-primary">Youmna Jaza</h1>
+        <h1 className="py-1 text-5xl font-black text-primary md:text-7xl">
+          Youmna Jaza
+        </h1>
         <h2 className="py-1 text-3xl font-bold">Software Engineer</h2>
-        <p className="py-1 text-xl">
-          Frontend developer looking for ideas and projects for himself and
-          others
+        <p className="py-1 text-xl md:w-3/4">
+          Software Engineering student interested in Front-end and mobile
+          development. I also enjoy working on designing UI/UX
         </p>
       </div>
       <div className="md:w-1/2">
