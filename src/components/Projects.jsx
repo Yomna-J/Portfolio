@@ -3,11 +3,12 @@ import p4 from "../assets/p4.png";
 import p3 from "../assets/p3.png";
 import ProjectCard from "./ui/ProjectCard";
 import { HiLink } from "react-icons/hi2";
-import { HiOutlineCodeBracket } from "react-icons/hi2";
+import { GoMarkGithub } from "react-icons/go";
+import { default as blob } from "../assets/blob.svg";
 
 const Projects = () => {
   return (
-    <div className="mx-auto flex flex-col justify-center gap-12 p-4 text-center md:items-center md:justify-between lg:max-w-7xl">
+    <div className="projects mx-auto flex flex-col justify-center gap-12 p-4 text-center md:items-center md:justify-between lg:max-w-7xl">
       <h1 className="py-10 text-3xl font-bold text-primary md:text-4xl ">
         Projects
       </h1>
@@ -18,7 +19,7 @@ const Projects = () => {
           {/* PRIVATE REPO */}
           {/* <div className="flex justify-end gap-4">
             <a href="">
-              <HiOutlineCodeBracket
+              <GoMarkGithub
                 className="text-secondary hover:text-primary"
                 size={20}
               />
@@ -82,7 +83,7 @@ const Projects = () => {
         <div className="flex flex-col justify-center p-8 md:w-1/2">
           <div className="flex gap-4">
             <a href="https://github.com/Yomna-J/fastbox">
-              <HiOutlineCodeBracket
+              <GoMarkGithub
                 className="text-secondary hover:text-primary"
                 size={20}
               />
@@ -224,6 +225,7 @@ const Projects = () => {
           </ProjectCard>
         </div>
       </div>
+      <img className="mx-auto w-1/2 md:w-1/6" src={blob} alt="blob" />
     </div>
   );
 };

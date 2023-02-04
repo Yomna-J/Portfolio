@@ -40,8 +40,9 @@ function addEffectWriting(element, time) {
         </h1>
         <h2 className="py-1 text-3xl font-bold">Software Engineer</h2>
         <p className="py-1 text-xl md:w-3/4">
-          Software Engineering student interested in Front-end and mobile
-          development. I also enjoy working on designing UI/UX
+          I'm a software engineering student with a passion for front-end
+          development, mobile applications, and UI/UX design. I strive to create
+          user-friendly and visually appealing software.
         </p>
       </div>
       <div className="md:w-1/2">

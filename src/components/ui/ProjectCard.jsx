@@ -1,5 +1,5 @@
 import { HiLink } from "react-icons/hi2";
-import { HiOutlineCodeBracket } from "react-icons/hi2";
+import { GoMarkGithub } from "react-icons/go";
 
 const ProjectCard = ({
   picture,
@@ -14,7 +14,7 @@ const ProjectCard = ({
       <div className="flex justify-end gap-4">
         {github && (
           <a href={github}>
-            <HiOutlineCodeBracket
+            <GoMarkGithub
               className="text-secondary hover:text-primary"
               size={20}
             />

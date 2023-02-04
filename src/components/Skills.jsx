@@ -6,8 +6,8 @@ const Skills = () => {
       </h1>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-        <div className="flex  flex-col items-center justify-center gap-3 rounded-lg border-2 border-solid border-primary bg-lightGray p-10 md:p-4 ">
-          <h2 className="py-2 text-2xl font-bold">Languages</h2>
+        <div className="flex  flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 md:p-4 ">
+          <h2 className="py-2 text-xl font-bold">Languages</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
               alt="tool"
@@ -43,8 +43,8 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-center gap-3 rounded-lg border-2 border-solid border-secondary bg-lightGray p-10 md:p-4 ">
-          <h2 className="py-2 text-2xl font-bold">Libraries & Frameworks</h2>
+        <div className="flex  flex-col items-center justify-around gap-3 rounded  bg-lightGray p-10 md:p-4 ">
+          <h2 className="py-2 text-xl font-bold">Libraries & Frameworks</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
               alt="tool"
@@ -68,8 +68,8 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center gap-3 rounded-lg border-2 border-solid border-primary bg-lightGray p-10 md:p-4 ">
-          <h2 className=" text-2xl font-bold">Design</h2>
+        <div className="flex flex-col items-center justify-around gap-3 rounded  bg-lightGray p-10 md:p-4 ">
+          <h2 className=" text-xl font-bold">Design</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
               alt="tool"
@@ -85,8 +85,8 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center  justify-center gap-3 rounded-lg border-2 border-solid border-secondary bg-lightGray p-10 md:p-4 ">
-          <h2 className="py-2 text-2xl font-bold">Tools</h2>
+        <div className="flex flex-col items-center  justify-around gap-3 rounded  bg-lightGray p-10 md:p-4 ">
+          <h2 className="py-2 text-xl font-bold">Tools</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
               alt="tool"
