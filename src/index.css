@@ -5,5 +5,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @font-face {
   font-family: "impact";
-  src: local("impact"), url(./fonts/impact.ttf) format("ttf");
+  src: local("impact"), url(./assets/fonts/impact.ttf) format("ttf");
 }
