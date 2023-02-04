@@ -33,8 +33,8 @@ function addEffectWriting(element, time) {
 } 
 `;
   return (
-    <div className="mx-auto flex flex-col justify-center gap-2 p-4 md:flex-row md:items-center md:justify-between lg:max-w-7xl">
-      <div className="p-5 md:w-1/2 md:flex-col md:p-0">
+    <div className="mx-auto flex flex-col  justify-center p-4 text-center md:flex-row md:items-center md:justify-between md:text-left lg:max-w-7xl">
+      <div className="py-4 md:w-1/2 md:flex-col">
         <h1 className="py-1 text-5xl font-black text-primary md:text-7xl">
           Youmna Jaza
         </h1>
