@@ -47,13 +47,12 @@ const Footer = () => {
         >
           {" "}
           Ontalex
-        </a>
+        </a>{" "}
         & built by{" "}
         <a
           className="hover:text-secondary"
           href="https://github.com/Yomna-J/Portfolio"
         >
-          {" "}
           Youmna Jaza
         </a>
       </h1>
