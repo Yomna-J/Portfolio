@@ -44,7 +44,7 @@ const Footer = () => {
         <a
           href="https://www.figma.com/@ontalex"
           className="hover:text-secondary"
-        >
+        >{" "}
           Ontalex
         </a>
         & built by
