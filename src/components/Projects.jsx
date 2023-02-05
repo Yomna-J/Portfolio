@@ -8,7 +8,10 @@ import { default as blob } from "../assets/blob.svg";
 
 const Projects = () => {
   return (
-    <div className="projects mx-auto flex flex-col justify-center gap-12 p-4 text-center md:items-center md:justify-between lg:max-w-7xl">
+    <div
+      id="projects"
+      className="projects mx-auto flex flex-col justify-center gap-12 p-4 text-center md:items-center md:justify-between lg:max-w-7xl"
+    >
       <h1 className="py-10 text-3xl font-bold text-primary md:text-4xl ">
         Projects
       </h1>

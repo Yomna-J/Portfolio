@@ -18,7 +18,10 @@ const Experience = () => {
   var yu = [`Bachelor of science in Software Engineering`, `CGPA of: 4.0/4.0`];
 
   return (
-    <div className="mx-auto flex flex-col justify-center gap-8 p-4 text-center md:items-center  md:justify-between lg:max-w-7xl">
+    <div
+      id="experience"
+      className="mx-auto flex flex-col justify-center gap-8 p-4 text-center md:items-center  md:justify-between lg:max-w-7xl"
+    >
       <h1 className="py-6 text-3xl font-bold text-primary md:text-4xl ">
         Experience & Education
       </h1>

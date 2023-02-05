@@ -4,7 +4,10 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="mx-auto flex flex-col justify-center gap-8 p-4 pb-8 text-center md:items-center md:justify-between lg:max-w-7xl">
+    <div
+      id="contact"
+      className="mx-auto flex flex-col justify-center gap-8 p-4 pb-8 text-center md:items-center md:justify-between lg:max-w-7xl"
+    >
       <h1 className="py-6 text-3xl font-bold text-primary md:text-4xl ">
         Contact Me
       </h1>

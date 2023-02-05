@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -60,17 +61,45 @@ const Navbar = () => {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">About Me</a>
+              <li>
+                <Link
+                  to="#about"
+                  className=" text-secondary hover:text-primary"
+                >
+                  About
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Skills</a>
+                <Link
+                  to="#experience"
+                  className=" text-secondary hover:text-primary"
+                >
+                  Experience & Education
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Projects</a>
+                <Link
+                  to="#skills"
+                  className=" text-secondary hover:text-primary"
+                >
+                  Skills
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Contact</a>
+                <Link
+                  to="#projects"
+                  className=" text-secondary hover:text-primary"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Link
+                  to="#contact"
+                  className=" text-secondary hover:text-primary"
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
