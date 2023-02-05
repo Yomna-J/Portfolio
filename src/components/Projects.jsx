@@ -5,6 +5,7 @@ import ProjectCard from "./ui/ProjectCard";
 import { HiLink } from "react-icons/hi2";
 import { GoMarkGithub } from "react-icons/go";
 import { default as blob } from "../assets/blob.svg";
+import data from "../data";
 
 const Projects = () => {
   return (
@@ -27,7 +28,7 @@ const Projects = () => {
                 size={20}
               />
             </a>
-           
+          
           </div> */}
           <h1 className="py-2 text-3xl font-bold text-secondary md:text-4xl ">
             Hurairah
@@ -43,42 +44,9 @@ const Projects = () => {
             able to create posts to communicate with the community.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 py-4 md:py-6">
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Flutter&color=02569B&logo=flutter&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Dart&color=0175C2&logo=dart&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=PHP&color=777BB4&logo=php&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Xampp&color=FB7A24&logo=Xampp&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=phpMyAdmin&color=6C78AF&logo=phpmyadmin&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Firebase Cloud Messaging&color=FFCA28&logo=Firebase&logoColor=000000"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Android Studio&color=3DDC84&logo=Android Studio&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=MySQL&color=4479A1&logo=mysql&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Adobe XD&color=FF61F6&logo=adobe xd&logoColor=FFFFFF"
-            />
+            {data.project1.map((tool) => {
+              return <img key={tool.id} alt={tool.alt} src={tool.img} />;
+            })}
           </div>
         </div>
       </div>
@@ -120,22 +88,9 @@ const Projects = () => {
             with some adjustments made to create the mobile design
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 py-4 md:py-6">
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=React Js&color=61DAFB&logo=React&logoColor=000000"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=MUI&color=007FFF&logo=MUI&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Figma&color=F24E1E&logo=figma&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Vercel&color=000000&logo=vercel&logoColor=FFFFFF"
-            />
+            {data.project2.map((tool) => {
+              return <img key={tool.id} alt={tool.alt} src={tool.img} />;
+            })}
           </div>
         </div>
         <img
@@ -145,7 +100,7 @@ const Projects = () => {
         />
       </div>
       {/* OTHER PROJECTS */}
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-4 py-2">
+      <div className="grid grid-cols-1 gap-8 py-2 md:grid-cols-4">
         {/* PROJECT CARD */}
         <ProjectCard
           github="https://github.com/Yomna-J/public_transport_app_Flutter"
