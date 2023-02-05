@@ -145,88 +145,86 @@ const Projects = () => {
         />
       </div>
       {/* OTHER PROJECTS */}
-      <div className="flex">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-          {/* PROJECT CARD */}
-          <ProjectCard
-            github="https://github.com/Yomna-J/public_transport_app_Flutter"
-            picture="https://github.com/Yomna-J/public_transport_app_Flutter/raw/main/ui.jpg"
-            title="Public Transport Application - UI"
-            description="Mobile application that allows users to check available transports and buy
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-4 py-2">
+        {/* PROJECT CARD */}
+        <ProjectCard
+          github="https://github.com/Yomna-J/public_transport_app_Flutter"
+          picture="https://github.com/Yomna-J/public_transport_app_Flutter/raw/main/ui.jpg"
+          title="Public Transport Application - UI"
+          description="Mobile application that allows users to check available transports and buy
           tickets"
-          >
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Flutter&color=02569B&logo=flutter&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Dart&color=0175C2&logo=dart&logoColor=FFFFFF"
-            />
-          </ProjectCard>
-          <ProjectCard
-            github="https://github.com/Yomna-J/habits_tracking_app_Flutter"
-            picture="https://github.com/Yomna-J/habits_tracking_app_Flutter/raw/main/ui.jpg"
-            title="Habits Tracking App - UI"
-            description="Mobile application that shows the user's habits and activities"
-          >
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Flutter&color=02569B&logo=flutter&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Dart&color=0175C2&logo=dart&logoColor=FFFFFF"
-            />
-          </ProjectCard>
-          <ProjectCard
-            github="https://github.com/Yomna-J/YoumnaJaza-SWE322"
-            website="https://yomna-j.github.io/YoumnaJaza-CIS201/"
-            picture={p3}
-            title="Basic Portfolio - UI"
-            description="A simple portfolio that shows skills and certificates"
-          >
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=JavaScript&color=F7DF1E&logo=JavaScript&logoColor=000000"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=html5&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Bootstrap&color=7952B3&logo=bootstrap&logoColor=FFFFFF"
-            />
-          </ProjectCard>
-          <ProjectCard
-            github="https://github.com/Yomna-J/YoumnaJaza-SWE322"
-            picture={p4}
-            title="Fit Gym"
-            description="A website that allows users to create an account to view and register in sport courses"
-          >
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=JavaScript&color=F7DF1E&logo=JavaScript&logoColor=000000"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=PHP&color=777BB4&logo=php&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=html5&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=MySQL&color=4479A1&logo=mysql&logoColor=FFFFFF"
-            />
-            <img
-              alt="tool"
-              src="https://img.shields.io/static/v1?label=&message=Bootstrap&color=7952B3&logo=bootstrap&logoColor=FFFFFF"
-            />
-          </ProjectCard>
-        </div>
+        >
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=Flutter&color=02569B&logo=flutter&logoColor=FFFFFF"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=Dart&color=0175C2&logo=dart&logoColor=FFFFFF"
+          />
+        </ProjectCard>
+        <ProjectCard
+          github="https://github.com/Yomna-J/habits_tracking_app_Flutter"
+          picture="https://github.com/Yomna-J/habits_tracking_app_Flutter/raw/main/ui.jpg"
+          title="Habits Tracking App - UI"
+          description="Mobile application that shows the user's habits and activities"
+        >
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=Flutter&color=02569B&logo=flutter&logoColor=FFFFFF"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=Dart&color=0175C2&logo=dart&logoColor=FFFFFF"
+          />
+        </ProjectCard>
+        <ProjectCard
+          github="https://github.com/Yomna-J/YoumnaJaza-SWE322"
+          website="https://yomna-j.github.io/YoumnaJaza-CIS201/"
+          picture={p3}
+          title="Basic Portfolio - UI"
+          description="A simple portfolio that shows skills and certificates"
+        >
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=JavaScript&color=F7DF1E&logo=JavaScript&logoColor=000000"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=html5&logoColor=FFFFFF"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=Bootstrap&color=7952B3&logo=bootstrap&logoColor=FFFFFF"
+          />
+        </ProjectCard>
+        <ProjectCard
+          github="https://github.com/Yomna-J/YoumnaJaza-SWE322"
+          picture={p4}
+          title="Fit Gym"
+          description="A website that allows users to create an account to view and register in sport courses"
+        >
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=JavaScript&color=F7DF1E&logo=JavaScript&logoColor=000000"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=PHP&color=777BB4&logo=php&logoColor=FFFFFF"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=html5&logoColor=FFFFFF"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=MySQL&color=4479A1&logo=mysql&logoColor=FFFFFF"
+          />
+          <img
+            alt="tool"
+            src="https://img.shields.io/static/v1?label=&message=Bootstrap&color=7952B3&logo=bootstrap&logoColor=FFFFFF"
+          />
+        </ProjectCard>
       </div>
       <img className="mx-auto w-1/2 md:w-1/6" src={blob} alt="blob" />
     </div>

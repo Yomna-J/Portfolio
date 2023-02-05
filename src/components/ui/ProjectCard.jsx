@@ -10,7 +10,7 @@ const ProjectCard = ({
   children,
 }) => {
   return (
-    <div className="flex flex-col gap-4 rounded bg-lightGray p-4">
+    <div className="flex flex-col gap-4 rounded bg-lightGray p-4  hover:-translate-y-5 hover:border-2 hover:border-primary">
       <div className="flex justify-end gap-4">
         {github && (
           <a href={github}>

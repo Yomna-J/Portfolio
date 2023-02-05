@@ -9,7 +9,7 @@ const Skills = () => {
       </h1>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-        <div className="flex  flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 md:p-4 ">
+        <div className="flex  flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-4 ">
           <h2 className="py-2 text-xl font-bold">Languages</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
@@ -46,7 +46,7 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className="flex  flex-col items-center justify-around gap-3 rounded  bg-lightGray p-10 md:p-4 ">
+        <div className="flex flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-4 ">
           <h2 className="py-2 text-xl font-bold">Libraries & Frameworks</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
@@ -71,7 +71,7 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-around gap-3 rounded  bg-lightGray p-10 md:p-4 ">
+        <div className="flex flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-4 ">
           <h2 className=" text-xl font-bold">Design</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
@@ -88,7 +88,7 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center  justify-around gap-3 rounded  bg-lightGray p-10 md:p-4 ">
+        <div className="flex flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-3 ">
           <h2 className="py-2 text-xl font-bold">Tools</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <img
