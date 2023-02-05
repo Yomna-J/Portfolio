@@ -33,3 +33,5 @@ The design is inspired by [Ontalex](https://www.figma.com/community/file/1176098
    ```sh
    npm start
    ```
+## LICENSE
+This repository UI design elements are licensed under CC-BY-4.0 and the code is licensed under the MIT License. Please be sure to comply with the terms of both licenses.
