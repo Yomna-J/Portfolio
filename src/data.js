@@ -77,6 +77,26 @@ const data = {
     { id: 16, alt: "Figma", img: figma },
     { id: 26, alt: "Vercel", img: vercel },
   ],
+  card1: [
+    { id: 9, alt: "Flutter", img: flutter },
+    { id: 6, alt: "Dart", img: dart },
+  ],
+  card2: [
+    { id: 9, alt: "Flutter", img: flutter },
+    { id: 6, alt: "Dart", img: dart },
+  ],
+  card3: [
+    { id: 3, alt: "JavaScript", img: js },
+    { id: 4, alt: "HTML5", img: html },
+    { id: 13, alt: "Bootstrap", img: bootstrap },
+  ],
+  card4: [
+    { id: 3, alt: "JavaScript", img: js },
+    { id: 8, alt: "PHP", img: php },
+    { id: 4, alt: "HTML5", img: html },
+    { id: 19, alt: "MySQL", img: mysql },
+    { id: 13, alt: "Bootstrap", img: bootstrap },
+  ],
 };
 
 export default data;
