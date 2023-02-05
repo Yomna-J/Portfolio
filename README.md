@@ -4,7 +4,7 @@
 
   <img src="https://github.com/Yomna-J/Portfolio/blob/main/src/assets/logo.svg" alt="logo" width="280">
 
-  <h2 align="center">My Portfolio</h2>
+  <h2 align="center">My Portfolio - v.1</h2>
   <p align="center">
     <a href="https://youmnajaza.vercel.app"><strong>View Website</strong></a>
   </p> 
