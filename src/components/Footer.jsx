@@ -44,10 +44,11 @@ const Footer = () => {
         <a
           href="https://www.figma.com/@ontalex"
           className="hover:text-secondary"
-        >{" "}
+        >
+          {" "}
           Ontalex
         </a>
-        & built by
+        & built by{" "}
         <a
           className="hover:text-secondary"
           href="https://github.com/Yomna-J/Portfolio"
