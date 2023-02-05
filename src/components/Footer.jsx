@@ -39,6 +39,11 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <h1 className="py-2 text-xs font-bold text-primary">
+        Design Inspired by
+        <a href="https://www.figma.com/@ontalex"> Ontalex</a> and built by
+        Youmna Jaza
+      </h1>
     </div>
   );
 };
