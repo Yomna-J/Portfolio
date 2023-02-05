@@ -14,7 +14,7 @@
 
 </div>
 
-![Desktop Preview](/resources/UI.png)
+![Desktop Preview](/UI.png)
 
 The design is inspired by [Ontalex](https://www.figma.com/community/file/1176098420505083930). 
 
