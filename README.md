@@ -7,7 +7,11 @@
   <h2 align="center">My Portfolio</h2>
   <p align="center">
     <a href="https://youmnajaza.vercel.app"><strong>View Website</strong></a>
-  </p>
+  </p> 
+  
+  
+  [![Vercel Status](https://vercel-badge-ar363.vercel.app/?app=eleventy-stylus-blog-theme)](https://github.com/Yomna-J/Portfolio/deployments/activity_log?environment=Production)
+
 </div>
 
 ![UI Image](/resources/UI.png)
