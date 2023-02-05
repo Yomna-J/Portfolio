@@ -1,4 +1,9 @@
 import data from "../data";
+import { HiOutlineDocument } from "react-icons/hi";
+import { BiCodeAlt } from "react-icons/bi";
+import { BiPaint } from "react-icons/bi";
+import { FiTool } from "react-icons/fi";
+
 const Skills = () => {
   return (
     <div
@@ -9,32 +14,38 @@ const Skills = () => {
         Skills
       </h1>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-        <div className="flex  flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-4 ">
-          <h2 className="py-2 text-xl font-bold">Languages</h2>
+        <div className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4">
+          <BiCodeAlt className="text-darkGray" size={35} />
+          <h2 className="pb-8 text-2xl font-bold text-darkGray">Languages</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {data.languages.map((lang) => {
               return <img key={lang.id} alt={lang.alt} src={lang.img} />;
             })}
           </div>
         </div>
-        <div className="flex flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-4 ">
-          <h2 className="py-2 text-xl font-bold">Libraries & Frameworks</h2>
+        <div className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4 ">
+          <HiOutlineDocument className="text-darkGray " size={35} />
+          <h2 className="pb-8 text-2xl font-bold text-darkGray">
+            Libs & Frameworks
+          </h2>
           <div className="flex flex-wrap justify-center gap-4">
             {data.lib.map((lib) => {
               return <img key={lib.id} alt={lib.alt} src={lib.img} />;
             })}
           </div>
         </div>
-        <div className="flex flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-4 ">
-          <h2 className=" text-xl font-bold">Design</h2>
+        <div className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4 ">
+          <BiPaint className="text-darkGray" size={35} />
+          <h2 className="pb-8 text-2xl font-bold text-darkGray">Design</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {data.design.map((tool) => {
               return <img key={tool.id} alt={tool.alt} src={tool.img} />;
             })}
           </div>
         </div>
-        <div className="flex flex-col items-center justify-around gap-3 rounded bg-lightGray p-10 hover:border-2 hover:border-primary md:p-3 ">
-          <h2 className="py-2 text-xl font-bold">Tools</h2>
+        <div className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4">
+          <FiTool className="text-darkGray" size={35} />
+          <h2 className="pb-8 text-2xl font-bold text-darkGray">Tools</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {data.tools.map((tool) => {
               return <img key={tool.id} alt={tool.alt} src={tool.img} />;

@@ -2,7 +2,7 @@
                         <defs>
                         <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                             <stop offset="0%" style="stop-color: rgb(248, 237, 255);"></stop>
-                            <stop offset="100%" style="stop-color: rgb(114, 28, 255);"></stop>
+                            <stop offset="100%" style="stop-color: rgb(175, 28, 255);"></stop>
                         </linearGradient>
                         </defs>
                         

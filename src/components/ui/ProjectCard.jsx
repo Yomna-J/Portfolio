@@ -10,8 +10,21 @@ const ProjectCard = ({
   children,
 }) => {
   return (
-    <div className="flex flex-col gap-4 rounded bg-lightGray p-4  hover:-translate-y-5 hover:border-2 hover:border-primary">
+    <div className="flex flex-col justify-between rounded-2xl bg-darkPrimary p-4  hover:-translate-y-5 hover:border-2 hover:border-primary">
+      <a href={website ? website : github}>
+        <img className="rounded-2xl" src={picture} alt="hurairah" />
+      </a>
+
+      <h1 className="py-3 text-xl font-bold text-darkGray ">{title}</h1>
+      <p>{description}</p>
+      <div className="flex flex-wrap justify-center gap-4 py-4">{children}</div>
+
       <div className="flex justify-end gap-4">
+        {website && (
+          <a href={website}>
+            <HiLink className="text-secondary hover:text-primary" size={20} />
+          </a>
+        )}
         {github && (
           <a href={github}>
             <GoMarkGithub
@@ -20,22 +33,6 @@ const ProjectCard = ({
             />
           </a>
         )}
-        {website && (
-          <a href={website}>
-            <HiLink className="text-secondary hover:text-primary" size={20} />
-          </a>
-        )}
-      </div>
-      <a href={website ? website : github}>
-        <img className="rounded" src={picture} alt="hurairah" />
-      </a>
-
-      <div className="md:p-1">
-        <h1 className="py-3 text-xl font-bold text-secondary ">{title}</h1>
-        <p>{description}</p>
-        <div className="flex flex-wrap justify-center gap-4 py-4">
-          {children}
-        </div>
       </div>
     </div>
   );

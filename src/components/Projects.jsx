@@ -17,8 +17,8 @@ const Projects = () => {
         Projects
       </h1>
       {/* IMPORTANT PROJECTS */}
-      <div className="flex flex-col rounded bg-darkPrimary md:flex-row">
-        <img className="rounded md:w-1/2" src={Hurairah} alt="hurairah" />
+      <div className="flex flex-col rounded-2xl bg-darkPrimary md:flex-row">
+        <img className="rounded-2xl md:w-1/2" src={Hurairah} alt="hurairah" />
         <div className="flex flex-col justify-center p-8 md:w-1/2">
           {/* PRIVATE REPO */}
           {/* <div className="flex justify-end gap-4">
@@ -30,10 +30,10 @@ const Projects = () => {
             </a>
           
           </div> */}
-          <h1 className="py-1 text-3xl font-bold text-secondary md:text-4xl ">
+          <h1 className="py-1 text-3xl font-bold text-darkGray md:text-4xl ">
             Hurairah
           </h1>
-          <h1 className="pb-7 text-2xl font-bold text-secondary md:text-2xl ">
+          <h1 className="pb-7 text-2xl font-bold text-darkGray md:text-2xl ">
             Graduation Project
           </h1>
           <p>
@@ -50,23 +50,26 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col rounded bg-darkPrimary md:flex-row ">
+      <div className="flex flex-col rounded-2xl bg-darkPrimary md:flex-row ">
         <div className="flex flex-col justify-center p-8 md:w-1/2">
           <div className="flex gap-4">
             <a href="https://github.com/Yomna-J/fastbox">
               <GoMarkGithub
-                className="text-secondary hover:text-primary"
+                className="text-secondary hover:text-darkGray"
                 size={20}
               />
             </a>
             <a href="https://fastbox-opal.vercel.app">
-              <HiLink className="text-secondary hover:text-primary" size={20} />
+              <HiLink
+                className="text-secondary hover:text-darkGray"
+                size={20}
+              />
             </a>
           </div>
-          <h1 className="py-1 text-3xl font-bold text-secondary md:text-4xl ">
-            FastBox
+          <h1 className="py-1 text-3xl font-bold text-darkGray md:text-4xl ">
+            Fast Box
           </h1>
-          <h1 className="pb-7 text-2xl font-bold text-secondary md:text-2xl ">
+          <h1 className="pb-7 text-2xl font-bold text-darkGray md:text-2xl ">
             Landing Page
           </h1>
           <p>
@@ -74,14 +77,14 @@ const Projects = () => {
             is designed by
             <a
               href="https://www.figma.com/@uitaskca"
-              className="mx-1 font-bold hover:underline"
+              className="mx-1 font-bold hover:text-darkGray"
             >
               uitaskteam
             </a>
             on
             <a
               href="https://www.figma.com/community/file/1192719418391264734"
-              className="mx-1 font-bold hover:underline"
+              className="mx-1 font-bold hover:text-darkGray"
             >
               Figma
             </a>
@@ -94,7 +97,7 @@ const Projects = () => {
           </div>
         </div>
         <img
-          className="rounded md:w-1/2"
+          className="rounded-2xl md:w-1/2"
           src="https://github.com/Yomna-J/fastbox/raw/main/resources/demo.png"
           alt="fastbox"
         />
