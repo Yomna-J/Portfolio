@@ -20,7 +20,7 @@ const Card = ({ logo, name, job, duration, skills, bgColor }) => {
         </div>
       </div> */}
 
-      <div className="w-full px-9 md:flex md:flex-col">
+      <div data-aos="fade-up" className="w-full px-9 md:flex md:flex-col">
         <h2 className="text-xl font-bold">{job}</h2>
         <h2 className="text-xl">{duration}</h2>
         <hr className="my-3 bg-primary text-primary" />

@@ -10,7 +10,10 @@ const ProjectCard = ({
   children,
 }) => {
   return (
-    <div className="flex flex-col justify-between rounded-2xl bg-darkPrimary p-4 ">
+    <div
+      data-aos="zoom-in"
+      className="flex flex-col justify-between rounded-2xl bg-darkPrimary p-4 "
+    >
       <a href={website ? website : github}>
         <img className="rounded-2xl" src={picture} alt="hurairah" />
       </a>

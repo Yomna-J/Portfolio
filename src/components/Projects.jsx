@@ -18,8 +18,16 @@ const Projects = () => {
       </h1>
       {/* IMPORTANT PROJECTS */}
       <div className="flex flex-col rounded-2xl bg-darkPrimary md:flex-row">
-        <img className="rounded-2xl md:w-1/2" src={Hurairah} alt="hurairah" />
-        <div className="flex flex-col justify-center p-8 md:w-1/2">
+        <img
+          data-aos="fade-up"
+          className="rounded-2xl md:w-1/2"
+          src={Hurairah}
+          alt="hurairah"
+        />
+        <div
+          data-aos="fade-down"
+          className="flex flex-col justify-center p-8 md:w-1/2"
+        >
           {/* PRIVATE REPO */}
           {/* <div className="flex justify-end gap-4">
             <a href="">
@@ -51,7 +59,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="flex flex-col rounded-2xl bg-darkPrimary md:flex-row ">
-        <div className="flex flex-col justify-center p-8 md:w-1/2">
+        <div
+          data-aos="fade-up"
+          className="flex flex-col justify-center p-8 md:w-1/2"
+        >
           <div className="flex gap-4">
             <a href="https://github.com/Yomna-J/fastbox">
               <GoMarkGithub
@@ -97,6 +108,7 @@ const Projects = () => {
           </div>
         </div>
         <img
+          data-aos="fade-down"
           className="rounded-2xl md:w-1/2"
           src="https://github.com/Yomna-J/fastbox/raw/main/resources/demo.png"
           alt="fastbox"
