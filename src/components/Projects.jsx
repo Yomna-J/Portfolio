@@ -115,7 +115,7 @@ const Projects = () => {
         />
       </div>
       {/* OTHER PROJECTS */}
-      <div className="grid grid-cols-1 gap-8 py-2 md:grid-cols-4">
+      <div className="grid grid-cols-1 gap-8 py-2 md:grid-cols-2 lg:grid-cols-4">
         {/* PROJECT CARD */}
         <ProjectCard
           github="https://github.com/Yomna-J/public_transport_app_Flutter"

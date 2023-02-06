@@ -14,7 +14,7 @@ const Skills = () => {
       <h1 className="py-6 text-3xl font-bold text-primary md:text-4xl ">
         Skills
       </h1>
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
         <SkillCard title="Languages" tools={data.languages}>
           <BiCodeAlt className="text-secondary" size={35} />
         </SkillCard>
