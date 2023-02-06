@@ -1,6 +1,9 @@
 const SkillCard = ({ title, tools, children }) => {
   return (
-    <div className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4">
+    <div
+      data-aos="zoom-in"
+      className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4"
+    >
       {children}
       <h2 className="pb-8 text-2xl font-bold text-secondary">{title}</h2>
       {/* <ReactTypingEffect
