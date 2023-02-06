@@ -10,7 +10,7 @@ const ProjectCard = ({
   children,
 }) => {
   return (
-    <div className="flex flex-col justify-between rounded-2xl bg-darkPrimary p-4  hover:-translate-y-5 hover:border-2 hover:border-primary">
+    <div className="flex flex-col justify-between rounded-2xl bg-darkPrimary p-4 ">
       <a href={website ? website : github}>
         <img className="rounded-2xl" src={picture} alt="hurairah" />
       </a>
@@ -22,13 +22,13 @@ const ProjectCard = ({
       <div className="flex justify-end gap-4">
         {website && (
           <a href={website}>
-            <HiLink className="text-secondary hover:text-primary" size={20} />
+            <HiLink className="text-secondary hover:text-darkGray" size={20} />
           </a>
         )}
         {github && (
           <a href={github}>
             <GoMarkGithub
-              className="text-secondary hover:text-primary"
+              className="text-secondary hover:text-darkGray"
               size={20}
             />
           </a>
