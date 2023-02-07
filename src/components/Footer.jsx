@@ -25,12 +25,12 @@ const Footer = () => {
           >
             <GoMarkGithub /> Yomna-J
           </a>
-          <a
+          {/* <a
             className="inline-flex items-center gap-2"
             href="https://www.linkedin.com/in/youmna-jaza-373016233/"
           >
             <BsLinkedin /> Youmna Jaza
-          </a>
+          </a> */}
           <a
             className="inline-flex items-center gap-2"
             href="mailto:youmnajaza@gmail.com"
