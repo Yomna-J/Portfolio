@@ -19,13 +19,13 @@ const Projects = () => {
       {/* IMPORTANT PROJECTS */}
       <div className="flex flex-col rounded-2xl bg-darkPrimary md:flex-row">
         <img
-          data-aos="fade-up"
+         data-aos-easing="ease-in-out" data-aos="fade-up"
           className="rounded-2xl md:w-1/2"
           src={Hurairah}
           alt="hurairah"
         />
         <div
-          data-aos="fade-down"
+         data-aos-easing="ease-in-out" data-aos="fade-down"
           className="flex flex-col justify-center p-8 md:w-1/2"
         >
           {/* PRIVATE REPO */}
@@ -60,7 +60,7 @@ const Projects = () => {
       </div>
       <div className="flex flex-col rounded-2xl bg-darkPrimary md:flex-row ">
         <div
-          data-aos="fade-up"
+         data-aos-easing="ease-in-out" data-aos="fade-up"
           className="flex flex-col justify-center p-8 md:w-1/2"
         >
           <div className="flex gap-4">
@@ -108,7 +108,7 @@ const Projects = () => {
           </div>
         </div>
         <img
-          data-aos="fade-down"
+         data-aos-easing="ease-in-out" data-aos="fade-down"
           className="rounded-2xl md:w-1/2"
           src="https://github.com/Yomna-J/fastbox/raw/main/resources/demo.png"
           alt="fastbox"

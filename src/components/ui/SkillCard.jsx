@@ -1,6 +1,7 @@
 const SkillCard = ({ title, tools, children }) => {
   return (
     <div
+      data-aos-easing="ease-in-out"
       data-aos="zoom-in"
       className="flex flex-col items-center rounded-2xl bg-darkPrimary py-6 px-4"
     >

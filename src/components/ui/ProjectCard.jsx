@@ -11,6 +11,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div
+      data-aos-easing="ease-in-out"
       data-aos="zoom-in"
       className="flex flex-col justify-between rounded-2xl bg-darkPrimary p-4 "
     >
