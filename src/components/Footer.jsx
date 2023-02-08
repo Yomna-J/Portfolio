@@ -25,18 +25,18 @@ const Footer = () => {
           >
             <GoMarkGithub /> Yomna-J
           </a>
-          {/* <a
+          <a
             className="inline-flex items-center gap-2"
             href="https://www.linkedin.com/in/youmna-jaza-373016233/"
           >
             <BsLinkedin /> Youmna Jaza
-          </a> */}
-          <a
+          </a>
+          {/* <a
             className="inline-flex items-center gap-2"
             href="mailto:youmnajaza@gmail.com"
           >
             <HiMail /> youmnajaza@gmail.com
-          </a>
+          </a> */}
         </div>
       </div>
       <h1 className="py-2 text-xs font-bold text-primary">
