@@ -38,7 +38,7 @@ function addEffectWriting(element, time) {
   return (
     <div
       id="about"
-      className=" mx-auto	flex h-[90vh] flex-col justify-center overflow-hidden px-4 py-1 text-center md:flex-row md:items-center md:justify-between md:text-left lg:max-w-7xl"
+      className=" mx-auto	flex h-[100vh] flex-col justify-center overflow-hidden px-4 py-1 text-center md:flex-row md:items-center md:justify-between md:text-left lg:max-w-7xl"
     >
       <div className="py-4 md:w-1/2 md:flex-col">
         <p className="inline py-1 text-5xl font-black text-primary md:text-7xl">
@@ -58,7 +58,7 @@ function addEffectWriting(element, time) {
           UI/UX design. I strive to create user-friendly and visually appealing
           software.
         </p>
-        <div className="flex flex-col items-center gap-4 py-4 md:flex-row md:py-6">
+        <div className="flex items-center justify-center gap-4 py-4 md:justify-start md:py-6">
           <a
             className="inline-flex items-center gap-2"
             href="https://github.com/Yomna-J"
