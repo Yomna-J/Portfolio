@@ -1,5 +1,7 @@
 import { default as blob } from "../assets/blob.svg";
 import ReactTypingEffect from "react-typing-effect";
+import { GoMarkGithub } from "react-icons/go";
+import { BsLinkedin } from "react-icons/bs";
 
 const Hero = () => {
   var code = `let button_menu = document.querySelector(".header_button");
@@ -51,10 +53,25 @@ function addEffectWriting(element, time) {
         />
         <h2 className="py-1 text-3xl font-bold">Software Engineer</h2>
         <p className="py-1 text-xl md:w-3/4">
-          I'm a software engineering student with a passion for front-end
-          development, mobile applications, and UI/UX design. I strive to create
-          user-friendly and visually appealing software.
+          I'm a software engineering fresh graduate and a cybersecurity analyst
+          with a passion for front-end development, mobile applications, and
+          UI/UX design. I strive to create user-friendly and visually appealing
+          software.
         </p>
+        <div className="flex flex-col items-center gap-4 py-4 md:flex-row md:py-6">
+          <a
+            className="inline-flex items-center gap-2"
+            href="https://github.com/Yomna-J"
+          >
+            <GoMarkGithub className="text-2xl" />
+          </a>
+          <a
+            className="inline-flex items-center gap-2"
+            href="https://www.linkedin.com/in/youmna-jaza-373016233/"
+          >
+            <BsLinkedin className="text-2xl" />
+          </a>
+        </div>
       </div>
       <div className="md:w-1/2">
         <div className="relative whitespace-pre text-[.50rem] text-primary text-opacity-30 md:text-base">

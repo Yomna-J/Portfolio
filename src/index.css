@@ -7,3 +7,6 @@
   font-family: "impact";
   src: local("impact"), url(./assets/fonts/impact.ttf) format("ttf");
 }
+html {
+  scroll-behavior: smooth;
+}

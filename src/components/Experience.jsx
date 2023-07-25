@@ -1,18 +1,16 @@
 import Card from "./ui/Card";
+import { default as moznLogo } from "../assets/mozn.svg";
 
 const Experience = () => {
   var mozn = [
-    `Worked as part of a cybersecurity team responsible for identifying,
-            analyzing, and resolving security incidents.`,
-    `Utilized various security tools and technologies to secure the
-            company's products.`,
-    `Developed strong problem-solving skills by identifying, analyzing,
-            and remedying security threats.`,
-    `Acquired a deeper understanding of software security and the
-            importance of developing secure software through my experience in
-            cybersecurity.`,
-    `Demonstrated strong skill in increasing the cybersecurity awareness
-            of the employees`,
+    `Collaborated with the development team to ensure secure software development practices.`,
+    `Implemented security controls and conducted penetration testing.`,
+    `Developed and maintained secure coding standards and guidelines.`,
+    `Contributed to the design and implementation of secure software architectures.`,
+    `Integrated security into the CI/CD pipeline.`,
+    `Conducted threat modeling and risk assessments.`,
+    `Recommended security tools and technologies for enhanced security.`,
+    `Drove cybersecurity awareness initiatives, including graphic design for awareness posts using Figma.`,
   ];
 
   var yu = [`Bachelor of science in Software Engineering`, `CGPA of: 4.0/4.0`];
@@ -28,10 +26,10 @@ const Experience = () => {
 
       {/* Card */}
       <Card
-        logo="https://mozn.sa/uploads/images/mozn_gradient.svg"
+        logo={moznLogo}
         name="Mozn"
-        job="Cybersecurity Intern"
-        duration="Sep. 2022 - Present"
+        job="Cybersecurity Analyst"
+        duration="Apr. 2023 - Present"
         skills={mozn}
       />
       <Card

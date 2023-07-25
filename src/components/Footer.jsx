@@ -31,12 +31,12 @@ const Footer = () => {
           >
             <BsLinkedin /> Youmna Jaza
           </a>
-          {/* <a
+          <a
             className="inline-flex items-center gap-2"
             href="mailto:youmnajaza@gmail.com"
           >
             <HiMail /> youmnajaza@gmail.com
-          </a> */}
+          </a>
         </div>
       </div>
       <h1 className="py-2 text-xs font-bold text-primary">
