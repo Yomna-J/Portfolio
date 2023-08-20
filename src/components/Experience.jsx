@@ -36,7 +36,7 @@ const Experience = () => {
         logo="https://yu.edu.sa/wp-content/themes/Yamamah%20University/images/yulogo.svg"
         name="YU"
         job="Software Engineering"
-        duration="Sep. 2018 - Present"
+        duration="Sep. 2018 - Apr. 2023"
         skills={yu}
       />
     </div>
