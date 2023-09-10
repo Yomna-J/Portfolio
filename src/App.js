@@ -5,10 +5,12 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import { BrowserRouter } from "react-router-dom";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
     <BrowserRouter>
+       <Analytics />
       <div className="App bg-darkGray font-Inconsolata text-secondary ">
         <Navbar />
         <Hero />
