@@ -1,6 +1,6 @@
 import { default as blob } from "../../assets/blob.svg";
 
-const Card = ({ logo, name, job, duration, skills, bgColor }) => {
+const ExperienceCard = ({ logo, name, job, duration, skills, bgColor }) => {
   return (
     <div className="flex w-full flex-col items-center gap-3 rounded-lg p-5 md:flex-row md:gap-12 md:text-left">
       <div className="relative top-0 left-0 w-3/4 md:w-1/2">
@@ -38,4 +38,4 @@ const Card = ({ logo, name, job, duration, skills, bgColor }) => {
   );
 };
 
-export default Card;
+export default ExperienceCard;

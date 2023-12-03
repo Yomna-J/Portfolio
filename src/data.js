@@ -24,12 +24,20 @@ import { default as unity } from "./assets/icons/unity.svg";
 import { default as androidstd } from "./assets/icons/androidstd.svg";
 import { default as vercel } from "./assets/icons/vercel.svg";
 import { default as xampp } from "./assets/icons/xampp.svg";
+import { default as tailwindcss } from "./assets/icons/tailwindcss.svg";
+import { default as typescript } from "./assets/icons/typescript.svg";
+import { default as nodejs } from "./assets/icons/nodejs.svg";
+import { default as googlebooksapi } from "./assets/icons/googlebooksapi.svg";
+import { default as firebase } from "./assets/icons/firebase.svg";
+import { default as stripe } from "./assets/icons/stripe.svg";
+import { default as chatgptapi } from "./assets/icons/chatgptapi.svg";
 
 const data = {
   languages: [
     { id: 1, alt: "Java", img: java },
     { id: 2, alt: "Python", img: python },
     { id: 3, alt: "JavaScript", img: js },
+    { id: 28, alt: "TypeScript", img: typescript },
     { id: 4, alt: "HTML5", img: html },
     { id: 5, alt: "CSS3", img: css },
     { id: 6, alt: "Dart", img: dart },
@@ -40,6 +48,8 @@ const data = {
     { id: 9, alt: "Flutter", img: flutter },
     { id: 10, alt: "React JS", img: react },
     { id: 11, alt: "Redux", img: redux },
+    { id: 29, alt: "Tailwind CSS", img: tailwindcss },
+    { id: 30, alt: "Node.js", img: nodejs },
     { id: 12, alt: "MUI", img: mui },
     { id: 13, alt: "Bootstrap", img: bootstrap },
   ],
@@ -50,6 +60,7 @@ const data = {
   ],
   tools: [
     { id: 17, alt: "Firebase Cloud Messaging", img: fcm },
+    { id: 31, alt: "Firebase", img: firebase },
     { id: 18, alt: "Bash", img: bash },
     { id: 19, alt: "MySQL", img: mysql },
     { id: 20, alt: "phpMyAdmin", img: phpmyadmin },
@@ -76,6 +87,23 @@ const data = {
     { id: 12, alt: "MUI", img: mui },
     { id: 16, alt: "Figma", img: figma },
     { id: 26, alt: "Vercel", img: vercel },
+  ], //bookish
+  project3: [
+    { id: 10, alt: "React JS", img: react },
+    { id: 29, alt: "Tailwind CSS", img: tailwindcss },
+    { id: 28, alt: "TypeScript", img: typescript },
+    { id: 30, alt: "Node.js", img: nodejs },
+    { id: 32, alt: "Google Books API", img: googlebooksapi },
+    { id: 31, alt: "Firebase", img: firebase },
+    { id: 33, alt: "Stripe", img: stripe },
+    { id: 16, alt: "Figma", img: figma },
+    { id: 26, alt: "Vercel", img: vercel },
+  ], //landgpt
+  project4: [
+    { id: 10, alt: "React JS", img: react },
+    { id: 29, alt: "Tailwind CSS", img: tailwindcss },
+    { id: 30, alt: "Node.js", img: nodejs },
+    { id: 34, alt: "ChatGPT API", img: chatgptapi },
   ],
   card1: [
     { id: 9, alt: "Flutter", img: flutter },

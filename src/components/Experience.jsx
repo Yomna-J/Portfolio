@@ -1,16 +1,14 @@
-import Card from "./ui/Card";
+import ExperienceCard from "./ui/ExperienceCard";
 import { default as moznLogo } from "../assets/mozn.svg";
 
 const Experience = () => {
   var mozn = [
-    `Collaborated with the development team to ensure secure software development practices.`,
-    `Implemented security controls and conducted penetration testing.`,
-    `Developed and maintained secure coding standards and guidelines.`,
-    `Contributed to the design and implementation of secure software architectures.`,
-    `Integrated security into the CI/CD pipeline.`,
-    `Conducted threat modeling and risk assessments.`,
-    `Recommended security tools and technologies for enhanced security.`,
-    `Drove cybersecurity awareness initiatives, including graphic design for awareness posts using Figma.`,
+    "Collaborated with the development team to ensure secure software development practices.",
+    "Developed and maintained secure coding standards and guidelines.",
+    "Integrated security into CI/CD pipelines for enhanced software security.",
+    "Conducted static security testing, promptly addressing vulnerabilities.",
+    "Contributed to ISO27001 and SAMA cybersecurity policies, emphasizing secure software practices.",
+    "Managed cybersecurity awareness and ensured third-party security compliance.",
   ];
 
   var yu = [`Bachelor of science in Software Engineering`, `CGPA of: 4.0/4.0`];
@@ -24,15 +22,15 @@ const Experience = () => {
         Experience & Education
       </h1>
 
-      {/* Card */}
-      <Card
+      {/* Experience Cards */}
+      <ExperienceCard
         logo={moznLogo}
         name="Mozn"
         job="Cybersecurity Analyst"
         duration="Apr. 2023 - Present"
         skills={mozn}
       />
-      <Card
+      <ExperienceCard
         logo="https://yu.edu.sa/wp-content/themes/Yamamah%20University/images/yulogo.svg"
         name="YU"
         job="Software Engineering"
