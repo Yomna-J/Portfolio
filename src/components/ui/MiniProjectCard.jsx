@@ -19,7 +19,7 @@ const MiniProjectCard = ({
         <img className="rounded-2xl" src={picture} alt="hurairah" />
       </a>
 
-      <h1 className="py-3 text-xl font-bold text-darkGray ">{title}</h1>
+      <h1 className="py-3 text-xl font-bold ">{title}</h1>
       <p>{description}</p>
       <div className="flex flex-wrap justify-center gap-4 py-4">{children}</div>
 
